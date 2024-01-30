@@ -12,8 +12,8 @@ interface ButtonProps {
 };
 
 const buttonVariantClasses: Record<ButtonVariant, string> = {
-  primary: "text-text bg-secondary",
-  secondary: "text-text bg-secondary-light bg-opacity-50",
+  primary: "bg-secondary",
+  secondary: "bg-secondary-light bg-opacity-50",
 };
 
 const Button: FC<ButtonProps> = ({
@@ -21,7 +21,7 @@ const Button: FC<ButtonProps> = ({
   variant = "primary",
 }) => (
   <button
-    className={classNames(`py-4 px-6 rounded-2xl text-text font-inter font-semibold ${styles.SemiBoldHeader4} color-000000`,clsx(buttonVariantClasses[variant]))}
+    className={classNames(`py-4 px-6 rounded-2xl text-center text-text font-inter font-semibold ${styles.SemiBoldHeader4} color-000000`,clsx(buttonVariantClasses[variant]))}
   >
     {children}
   </button>

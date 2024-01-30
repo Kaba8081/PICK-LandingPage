@@ -1,4 +1,12 @@
-<svg width="1440" height="116" viewBox="0 0 1440 116" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.00262451 0C320.823 2.62613 962.463 26.8049 962.463 113.152H0.00256348L0.00262451 0Z" fill="#7D02C9"/>
-<path d="M0 116H1440C1440.11 114.29 1437.73 71.6286 1437.76 69.9696C1437.76 10.6296 1355.18 13.2925 1311.89 10.6296C659.337 10.6296 172.971 73.1101 3.49512 108.88C1.96667 109.203 0.484009 110.751 0 112.203V116Z" fill="#55008A"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="549 28.1 1440 116" style="enable-background:new 549 28.1 1440 116;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7D02C9;}
+	.st1{fill:#55008A;}
+</style>
+<path class="st0" d="M549,28.1c320.8,2.6,962.5,26.8,962.5,113.2H549L549,28.1z"/>
+<path class="st1" d="M1989,98v46H549v-3.8c0.5-1.5,2-3,3.5-3.3c169.7-35.8,656.9-98.3,1310.4-98.3C1906.3,41.4,1989,38.7,1989,98z"
+	/>
 </svg>
