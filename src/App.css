@@ -3,13 +3,6 @@
 @tailwind utilities;
 
 .App {
-  --primary-dark: #55008A;
-  --primary-light: #7D02C9;
-  --secondary: #2BB5E3;
-  --accent: #4DEFA9;
-  --background: #F2F9FD;
-  --text: #040F20;
+
 }
-
-
 
