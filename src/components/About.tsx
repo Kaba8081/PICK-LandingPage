@@ -2,7 +2,7 @@ import {about1, about2, about3} from "../assets";
 import { styles } from "../style";
 
 const About = () => (
-    <div className="w-full flex flex-col self-stretch flex-start gap-y-12 justify-center py-16 px-[11.25%]">
+    <div id="functions" className="w-full flex flex-col self-stretch flex-start gap-y-12 justify-center py-16 px-[11.25%]">
         <div className="flex px-24 justify-between items-start">
             <div className="flex flex-col items-start gap-y-8 w-[60%]">
                 <div>

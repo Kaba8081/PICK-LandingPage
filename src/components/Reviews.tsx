@@ -10,7 +10,7 @@ import {
 import ReviewCard from "./ReviewCard";
 
 const Reviews = () => (
-    <div className="w-full flex flex-col self-stretch">
+    <div id="reviews" className="w-full flex flex-col self-stretch">
         <div className="separator2 flex">
             <img src={separator4} alt='Separator' className='w-full mb-[-1px]'></img>
         </div>

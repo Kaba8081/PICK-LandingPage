@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import {styles} from '../style';
 
-type ButtonVariant = "primary" | "secondary";
+type ButtonVariant = "primary" | "secondary" | "hollow" | "accent";
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -14,6 +14,8 @@ interface ButtonProps {
 const buttonVariantClasses: Record<ButtonVariant, string> = {
   primary: "bg-secondary",
   secondary: "bg-secondary-light bg-opacity-50",
+  hollow: "bg-transparent border-2 border-secondary",
+  accent: "bg-accent text-text-light",
 };
 
 const Button: FC<ButtonProps> = ({
