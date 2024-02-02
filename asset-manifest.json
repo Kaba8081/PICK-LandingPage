@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/PiCK-LandingPage/static/css/main.3ad48a83.css",
-    "main.js": "/PiCK-LandingPage/static/js/main.94098071.js",
+    "main.css": "/PiCK-LandingPage/static/css/main.0caf0580.css",
+    "main.js": "/PiCK-LandingPage/static/js/main.07fb3d39.js",
     "static/media/about2.png": "/PiCK-LandingPage/static/media/about2.b7923c4bfbc6f6708ab9.png",
     "static/media/about1.png": "/PiCK-LandingPage/static/media/about1.1176025c4987bd7ef6ae.png",
     "static/media/logo-default.svg": "/PiCK-LandingPage/static/media/logo-default.a1fa4234a8504865cf87f89de9015474.svg",
     "static/media/logo-monochrome.svg": "/PiCK-LandingPage/static/media/logo-monochrome.0764091bd74121c0c4fa7a0f66090277.svg",
-    "static/media/heroBaner.svg": "/PiCK-LandingPage/static/media/heroBaner.7fe07af9836d5eb9465f569ff60b7430.svg",
+    "static/media/heroBaner.svg": "/PiCK-LandingPage/static/media/heroBaner.4786694c119e793e215e5224af331739.svg",
+    "static/media/close.svg": "/PiCK-LandingPage/static/media/close.c77f10e4c08d40af5f1ccf25a43b2ac5.svg",
+    "static/media/menu.svg": "/PiCK-LandingPage/static/media/menu.0b8796dcff6b9d88f160a5096039aa18.svg",
     "index.html": "/PiCK-LandingPage/index.html",
     "static/media/separator2.svg": "/PiCK-LandingPage/static/media/separator2.fb624ac708d86008eef7654643a1f09f.svg",
     "static/media/separator5.svg": "/PiCK-LandingPage/static/media/separator5.2e1cf0f9275319715d8789d2d33eb6a8.svg",
@@ -16,11 +18,11 @@
     "static/media/separator6.svg": "/PiCK-LandingPage/static/media/separator6.daabbab75d7e8872b86902f46ad8bc76.svg",
     "static/media/separator1.svg": "/PiCK-LandingPage/static/media/separator1.0ee62aed4cf7e59633c3fe4471e97474.svg",
     "static/media/star_empty.svg": "/PiCK-LandingPage/static/media/star_empty.d9144974adb8f6a3b2acdfea78832005.svg",
-    "main.3ad48a83.css.map": "/PiCK-LandingPage/static/css/main.3ad48a83.css.map",
-    "main.94098071.js.map": "/PiCK-LandingPage/static/js/main.94098071.js.map"
+    "main.0caf0580.css.map": "/PiCK-LandingPage/static/css/main.0caf0580.css.map",
+    "main.07fb3d39.js.map": "/PiCK-LandingPage/static/js/main.07fb3d39.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ad48a83.css",
-    "static/js/main.94098071.js"
+    "static/css/main.0caf0580.css",
+    "static/js/main.07fb3d39.js"
   ]
 }
