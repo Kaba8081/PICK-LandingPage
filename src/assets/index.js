@@ -9,6 +9,7 @@ import separator2 from './separator2.svg';
 import separator3 from './separator3.svg';
 import separator4 from './separator4.svg';
 import separator5 from './separator5.svg';
+import separator6 from './separator6.svg';
 
 // About assets
 import about1 from './about1.png';
@@ -33,6 +34,7 @@ export {
     separator3,
     separator4,
     separator5,
+    separator6,
     about1,
     about2,
     about3,
