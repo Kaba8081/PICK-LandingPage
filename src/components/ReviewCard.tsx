@@ -27,7 +27,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
     }
 
     return (
-    <div className="flex flex-col items-start justify-center gap-y-3 p-8 bg-secondary/30 rounded-[25px] max-w-[30%]">
+    <div className="flex flex-col items-start justify-center gap-y-3 p-8 bg-secondary/30 rounded-[25px] sm:max-w-[30%]">
         <div className="flex justify-center items-center gap-x-4">
             <img src={profilePicture} alt="Avatar" />
             <div className="flex flex-col gap-y-2 justify-center items-start">

@@ -2,7 +2,7 @@ import OffertCard from './OffertCard';
 import {styles} from '../style';
 
 const Offert = () => (
-    <div id="offert" className="w-full flex flex-col px-[11.25%] py-16 gap-y-16">
+    <div id="offert" className="w-full flex flex-col px-[32px] md:px-[11.25%] py-16 gap-y-16">
         <div className="flex flex-row justify-between"> 
             <h2 className={`${styles.BoldHeader2}`}>Nasza Oferta</h2>
             <p 

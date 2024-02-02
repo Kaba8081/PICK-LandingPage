@@ -2,6 +2,8 @@
 import logoMonochrome from './logo-monochrome.svg';
 import logoDefault from './logo-default.svg';
 import heroBaner from './heroBaner.svg';
+import menu from './menu.svg';
+import close from './close.svg';
 
 // Separators
 import separator1 from './separator1.svg';
@@ -29,6 +31,8 @@ export {
     logoMonochrome,
     logoDefault,
     heroBaner,
+    menu,
+    close,
     separator1,
     separator2,
     separator3,

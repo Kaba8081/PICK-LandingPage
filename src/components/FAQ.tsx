@@ -2,7 +2,7 @@ import {styles} from '../style';
 import * as Icon from 'react-bootstrap-icons';
 
 const FAQ = () => (
-    <div className="flex flex-row justify-between items-center px-[11.25%] py-16">
+    <div className="flex flex-row justify-between items-center px-[32px] md:px-[11.25%] py-16">
         <div className="flex flex-col w-[40%] gap-y-6">
             <h2 className={`${styles.BoldHeader2}`}>
                 Najczęściej zadawane pytania

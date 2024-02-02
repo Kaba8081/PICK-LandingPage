@@ -23,7 +23,7 @@ const Button: FC<ButtonProps> = ({
   variant = "primary",
 }) => (
   <button
-    className={classNames(`py-4 px-6 rounded-2xl text-center text-text font-inter font-semibold ${styles.SemiBoldHeader4} color-000000`,clsx(buttonVariantClasses[variant]))}
+    className={classNames(`py-3 px-4 rounded-lg sm:py-4 sm:px-6 sm:rounded-2xl text-center text-text font-inter font-semibold ${styles.SemiBoldHeader4} color-000000`,clsx(buttonVariantClasses[variant]))}
   >
     {children}
   </button>

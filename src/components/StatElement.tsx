@@ -25,7 +25,7 @@ const Stat: React.FC<StatProps> = ({
 }) => (
     <div className={className}>
         <h2 className={classNames(clsx(StatVariantClasses[variant]), `flex flex-col align-center shrink-0 ${styles.BoldHeader2}`)}>{value}</h2>
-        <h3 className={`opacity-70 text-[#F2F9FD] font-semibold ${styles.BaseText} 2xl:text-2xl`}>{title}</h3>
+        <h3 className={`opacity-70 text-text-light font-semibold ${styles.SemiBoldHeader3} sm:text-base 2xl:text-xl`}>{title}</h3>
     </div>
 )
 

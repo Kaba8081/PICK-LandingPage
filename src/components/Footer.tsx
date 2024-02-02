@@ -4,7 +4,7 @@ import { styles } from '../style';
 import * as Icon from 'react-bootstrap-icons';
 
 const Footer = () => (
-    <footer className="w-full flex px-[11.25%] pb-16 justify-between items-start gap-x-[10px] bg-primary-dark">
+    <footer className="w-full flex px-[32px] md:px-[11.25%] pb-16 justify-between items-start gap-x-[10px] bg-primary-dark">
         <div className='flex flex-col justify-center items-start gap-y-1'>
             <div className='flex flex-row gap-x-2'>
                 <img src={logoMonochrome} alt='LogoIcon'/>
@@ -40,9 +40,9 @@ const Footer = () => (
         <div className='flex flex-col justify-center items-center gap-y-4 text-text-light'>
             <h3 className={`${styles.SemiBoldHeader3}`}>Znajdź nas również na:</h3>
             <div className='flex flex-row gap-x-3'>
-                <Icon.Twitter color="white" size={32}/>
-                <Icon.Youtube color="white" size={32}/>
-                <Icon.Google color="white" size={32}/>
+                <a href="x.com"><Icon.Twitter color="white" size={32}/></a>
+                <a href="youtube.com"><Icon.Youtube color="white" size={32}/></a>
+                <a href="google.com"><Icon.Google color="white" size={32}/></a>
             </div>
         </div>
     </footer>
