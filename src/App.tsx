@@ -29,8 +29,8 @@ const App = () => (
 
       <Hero />
 
-      <div className="w-[105%] h-14 md:h-28 align-left">
-            <img src={separator2} alt='Separator' className='w-full h-full ml-[-10px] mb-[-1px] object-cover' />
+      <div className="w-[105%] h-14 md:h-28 align-left mb-[-1px]">
+            <img src={separator2} alt='Separator' className='w-full h-full ml-[-10px] object-cover' />
       </div>
       <Stats />
       <div className="w-[110%] h-8 md:h-16 align-left">

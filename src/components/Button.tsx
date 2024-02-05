@@ -18,7 +18,7 @@ const buttonVariantClasses: Record<ButtonVariant, string> = {
   primary: "bg-secondary",
   secondary: "bg-secondary-light bg-opacity-50",
   hollow: "bg-transparent border-2 border-secondary",
-  accent: "bg-accent text-text-light",
+  accent: "bg-accent-dark text-text-light",
 };
 
 const Button: FC<ButtonProps> = ({
