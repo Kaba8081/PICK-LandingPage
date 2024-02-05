@@ -1,7 +1,7 @@
 {
-  "name": "pick_landingpage",
+  "name": "PICK-LandingPage",
   "version": "0.1.0",
-  "homepage": "https://kaba8081.github.io/PiCK-LandingPage/",
+  "homepage": "https://kaba8081.github.io/PICK-LandingPage/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

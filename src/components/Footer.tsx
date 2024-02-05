@@ -15,17 +15,17 @@ const Footer = () => (
                 All rights reserved.
             </p>
         </div>
-    {footerLinks.map(({title, links}) => (
-        <div className='flex flex-col items-start gap-y-2 md:gap-y-4'>
+    {footerLinks.map(({id, title, links}) => (
+        <div key={id} className='flex flex-col items-start gap-y-2 md:gap-y-4'>
             <div className=''>
                 <h3 className={`${styles.SemiBoldHeader3} text-text-light`}>{title}</h3>
             </div>
             <ul className='flex flex-col gap-y-2 md:gap-y-3'>
-                {links.map(({id, label}) => (
-                    <li className=''>
+                {links.map(({id, link, label}) => (
+                    <li key={id}>
                         <a 
                             className={`${styles.BaseText} text-text-light opacity-80 hover:opacity-100`}
-                            href={`/${id}`}
+                            href={`/${link}`}
                         >
                             {label}
                         </a>

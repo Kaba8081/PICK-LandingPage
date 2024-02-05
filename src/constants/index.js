@@ -19,60 +19,74 @@ export const navLinks = [
 
 export const footerLinks = [
     {
+        id: 1,
         title: "O nas",
         links: [
             {
-                id: "history",
+                id: 1,
+                link: "history",
                 label: "Historia",
             },
             {
-                id: "contact",
+                id: 2,
+                link: "contact",
                 label: "Kontakt",
             },
             {
-                id: "other_products",
+                id: 3,
+                link: "other_products",
                 label: "Inne producty",
             }
         ]
     },
     {
+        id: 2,
         title: "Społeczność",
         links: [
             {
-                id: "workshop",
+                id: 1,
+                link: "workshop",
                 label: "Warsztat",
             },
             {
-                id: "news",
+                id: 2,
+                link: "news",
                 label: "Aktualności",
             },
             {
-                id: "shop",
+                id: 3,
+                link: "shop",
                 label: "Sklep",
             },
             {
-                id: "suggestions",
+                id: 4,
+                link: "suggestions",
                 label: "Sugestie",
             }
         ]
     },
     {
+        id: 3,
         title: "Więcej informacji",
         links: [
             {
-                id: "forum",
+                id: 1,
+                link: "forum",
                 label: "Forum",
             },
             {
-                id: "blog",
+                id: 2,
+                link: "blog",
                 label: "Blog",
             },
             {
-                id: "tech_support",
+                id: 3,
+                link: "tech_support",
                 label: "Wsparcie techniczne",
             },
             {
-                id: "bug_report",
+                id: 4,
+                link: "bug_report",
                 label: "Zgłoś problem",
             }
         ]

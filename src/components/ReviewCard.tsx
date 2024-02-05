@@ -20,10 +20,10 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
 }) => {
     const starsArray = [];
     for (let i = 0; i < stars; i++) {
-        starsArray.push(<img src={starFull} alt="Star" />);
+        starsArray.push(<img key={i} src={starFull} alt="Star" />);
     }
     for (let i = 0; i < 5 - stars; i++) {
-        starsArray.push(<img src={starEmpty} alt="Star" />);
+        starsArray.push(<img key={i + stars} src={starEmpty} alt="Star" />);
     }
 
     return (
