@@ -7,7 +7,7 @@ const Footer = () => (
     <footer className="w-full flex flex-col lg:flex-row px-[32px] md:px-[11.25%] pt-4 pb-16 justify-between items-center lg:items-start gap-x-[10px] gap-y-5 bg-footer-gradient">
         <div className='flex flex-col justify-center items-start gap-y-1'>
             <div className='flex flex-row gap-x-2'>
-                <img src={logoMonochrome} alt='LogoIcon'/>
+                <img src={logoMonochrome} alt='LogoIcon' className='width-[44px] height-[44px]'/>
                 <p className={`${styles.SemiBoldHeader4} justify-items-center self-center text-text-light`}>WorkFlow<span className='text-accent font-bold'>Ease</span></p>
             </div>
             <p className={`${styles.BaseText} font-semibold text-text-light`}>
@@ -37,9 +37,9 @@ const Footer = () => (
         <div className='flex flex-col justify-center items-center gap-y-4 text-text-light'>
             <h3 className={`${styles.SemiBoldHeader3}`}>Znajdź nas również na:</h3>
             <div className='flex flex-row gap-x-4'>
-                <a href="x.com"><Icon.Twitter color="white" size={32}/></a>
-                <a href="youtube.com"><Icon.Youtube color="white" size={32}/></a>
-                <a href="google.com"><Icon.Google color="white" size={32}/></a>
+                <a href="x.com" aria-label="WorkFlowEasy Twitter page"><Icon.Twitter color="white" size={32}/></a>
+                <a href="youtube.com" aria-label="WorkFlowEasy Youtube page"><Icon.Youtube color="white" size={32}/></a>
+                <a href="google.com" aria-label="WorkFlowEasy Google page"><Icon.Google color="white" size={32}/></a>
             </div>
         </div>
     </footer>

@@ -20,16 +20,16 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
 }) => {
     const starsArray = [];
     for (let i = 0; i < stars; i++) {
-        starsArray.push(<img key={i} src={starFull} alt="Star" />);
+        starsArray.push(<img key={i} src={starFull} alt="Star" className="witdth-[24px] height-[24px]"/>);
     }
     for (let i = 0; i < 5 - stars; i++) {
-        starsArray.push(<img key={i + stars} src={starEmpty} alt="Star" />);
+        starsArray.push(<img key={i + stars} src={starEmpty} alt="Star" className="witdth-[24px] height-[24px]"/>);
     }
 
     return (
     <div className="flex flex-col items-start justify-center gap-y-3 p-8 bg-secondary/30 rounded-[25px] md:max-w-[30%]">
         <div className="flex justify-center items-center gap-x-4">
-            <img src={profilePicture} alt="Avatar" />
+            <img src={profilePicture} alt="Avatar" className="witdth-[56px] height-[56px]"/>
             <div className="flex flex-col gap-y-2 justify-center items-start">
                 <h3 className={`${styles.BoldBase} text-text-light`}>{name}</h3>
             <h4 className={`${styles.BaseText} text-text-light opacity-80`}>{role}</h4>

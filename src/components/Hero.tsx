@@ -8,7 +8,7 @@ const Hero = () => (
     <div className='w-full flex flex-col sm:flex-row self-stretch items-center justify-center px-[32px] md:px-[11.25%]'>
         <div className='flex flex-col justify-between gap-y-8 md:gap-y-16 py-[25px] 2xl:gap-y-[126px] 2xl:py-[50px] md:w-[68%]'>
             <h1 className={`${styles.BoldHeader1} shrink-0`}>
-                Wirtualny asystent, <br /><span className='text-[#36A877]'>realne</span> rezultaty
+                Wirtualny asystent, <br /><span className='text-accent-dark brightness-75'>realne</span> rezultaty
             </h1>
             <div className='flex justify-center items-center gap-x-[32px]'>
                 <Button href="#functions" variant='secondary'>
@@ -20,7 +20,7 @@ const Hero = () => (
             </div>
         </div>
         <div className='flex md:w-[32%]'>
-            <img className="flex flex-auto object-fill" src={ heroBaner } alt='HeroBanner' />
+            <img className="flex flex-auto object-fill width-[316px] height-[348px]" src={ heroBaner } alt='HeroBanner' />
         </div>    
     </div>
 );

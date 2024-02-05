@@ -14,9 +14,9 @@ import separator5 from './separator5.svg';
 import separator6 from './separator6.svg';
 
 // About assets
-import about1 from './about1.png';
-import about2 from './about2.png';
-import about3 from './about3.png';
+import about1 from './about1.webp';
+import about2 from './about2.webp';
+import about3 from './about3.webp';
 
 // ReviewCard assets
 import profPic1 from './ProfPic1.png';

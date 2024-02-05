@@ -9,7 +9,7 @@ const Navbar = () => {
     return(
     <nav className='flex justify-between items-middle bg-primary-dark px-[32px] md:px-[11.25%] pt-14 py-[16px]'>
         <div className='flex max-h-[44px] gap-x-2'>
-            <img src={logoDefault} alt='LogoIcon' />
+            <img src={logoDefault} alt='LogoIcon' className='width-[44px] height-[44px]'/>
             <p className={`${styles.SemiBoldHeader3} justify-items-center self-center text-text-light`}>WorkFlow<span className='text-accent font-bold'>Ease</span></p>
         </div>
 

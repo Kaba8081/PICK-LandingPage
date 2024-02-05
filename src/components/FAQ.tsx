@@ -11,7 +11,7 @@ const FAQ = () => (
                 Jeśli masz więcej pytań 
                 <br className='md:hidden'/>
                 napisz do nas
-                <a href="./contact/" className="text-secondary-light hover:text-secondary"> tutaj</a>!
+                <a href="./contact/" className="text-accent-dark brightness-75 hover:brightness-100"> tutaj</a>!
             </h3>
         </div>
         <div className="flex flex-col gap-y-4 md:gap-y-8 md:w-[55%]">

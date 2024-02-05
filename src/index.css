@@ -33,7 +33,7 @@ code {
   background-color: var(--background);
 }
 .strokeStat{
-  -webkit-text-stroke: 2px var(--accent, #4DEFA9);
+  -webkit-text-stroke: 3px var(--accent, #4DEFA9);
   font-style: normal;
   color: var(--primary-dark, #55008A);
 }

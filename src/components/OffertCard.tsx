@@ -31,7 +31,7 @@ const OffertCard: React.FC<OffertCardProps> = ({
             <hr className="border-t-2 text-secondary"/>
             <div className="flex flex-col w-full items-start content-start gap-y-2">
                 <div className="flex flex-row items-end">
-                    <p className={`text-accent-dark ${styles.BoldHeader3}`}>${price}</p>
+                    <p className={`${variant === "primary" ? "text-accent-dark brightness-125" : "text-primary-light brightness-100"} ${styles.BoldHeader3}`}>${price}</p>
                     <p className={`opacity-80 ${styles.SemiBoldHeader4}`}>/miesiąc</p>
                 </div>
                 <div className={`${styles.BaseText}`}>{children}</div>

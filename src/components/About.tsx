@@ -12,12 +12,12 @@ const About = () => (
                 <p className={`${styles.BaseText}`}>Lorem ipsum dolor sit amet consectetur sagittis quis non justo turpis. Dignissim aliquet  dui sapien facilisis enim massa.  Ultricies sagittis quis non ultricies justo turpis.</p>
             </div> 
             <div className="hidden sm:flex flex-col items-center w-[39%]">
-                <img src={about1} alt="Smartphone" className="object-fill max-h-[256px] shrink-0"></img>
+                <img src={about1} alt="Neural network" className="object-fill max-h-[256px] shrink-0 width-[427px] height-[256px]"></img>
             </div>
         </div>
         <div className="flex sm:px-24 justify-between items-start">
             <div className="hidden sm:flex flex-col items-center w-[39%]">
-                <img src={about2} alt="Smartphone" className="object-fill max-h-[256px] shrink-0"></img>
+                <img src={about2} alt="Smartphone" className="object-fill max-h-[256px] shrink-0 width-[419px] height-[256px]"></img>
             </div>
             <div className="flex flex-col items-start gap-y-8 sm:w-[60%]">
                 <div>
@@ -36,7 +36,7 @@ const About = () => (
                 <p className={`${styles.BaseText}`}>Dignissim aliquet  dui sapien facilisis enim massa.  Ultricies sagittis quis non ultricies justo turpis.</p>
             </div> 
             <div className="hidden sm:flex flex-col items-center w-[39%]">
-                <img src={about3} alt="Smartphone" className="object-cover max-h-[256px] shrink-0"></img>
+                <img src={about3} alt="Puzzles" className="object-cover max-h-[256px] shrink-0 width-[256px] height-[256px]"></img>
             </div>
         </div>
     </div>
