@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {styles} from '../style';
 import { heroBaner } from '../assets';
 
@@ -12,7 +11,7 @@ const Hero = () => (
                 Wirtualny asystent, <br /><span className='text-[#36A877]'>realne</span> rezultaty
             </h1>
             <div className='flex justify-center items-center gap-x-[32px]'>
-                <Button variant='secondary'>
+                <Button href="#functions" variant='secondary'>
                     Jak to dziala?
                 </Button>
                 <Button variant='primary'>

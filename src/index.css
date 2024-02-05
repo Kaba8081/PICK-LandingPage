@@ -41,3 +41,6 @@ code {
   background: linear-gradient(to left top, var(--secondary), var(--primary-light));
 
 }
+.bg-footer-gradient{
+  background: linear-gradient(180deg, #55008A 0%, #2C0047 100%);
+}

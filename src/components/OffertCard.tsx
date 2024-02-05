@@ -26,7 +26,7 @@ const OffertCard: React.FC<OffertCardProps> = ({
 }) => {
     const button_variant = variant === "primary" ? "accent" : "hollow";
     return(
-        <div className={classNames("flex flex-col p-8 gap-y-3 rounded-[25px] max-w-[30%]", clsx(offertCardVariantClasses[variant]))}>
+        <div className={classNames("flex flex-col p-8 gap-y-3 rounded-[25px] md:max-w-[30%]", clsx(offertCardVariantClasses[variant]))}>
             <h3 className={`${styles.SemiBoldHeader2} leading-3`}>{title}</h3>
             <hr className="border-t-2 text-secondary"/>
             <div className="flex flex-col w-full items-start content-start gap-y-2">

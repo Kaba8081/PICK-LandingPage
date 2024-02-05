@@ -9,7 +9,7 @@ const styles = {
     SemiBoldHeader4: "font-inter font-semibold text-lg 2xl:text-2xl color-000000",
 
     BaseText: "font-poppins text-sm sm:text-base 2xl:text-xl color-000000",
-    BoldBase: "font-poppins font-bold text-xl /lg 2xl:text-2xl /xl color-000000",
+    BoldBase: "font-poppins font-bold text-md smtext-xl /lg 2xl:text-2xl /xl color-000000",
 }
 
 const StatStyle = "flex flex-col gap-y-3 sm:gap-y-6 items-center max-w-[25%] text-center";

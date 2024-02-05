@@ -13,7 +13,7 @@ const Reviews = () => (
     <div id="reviews" className="w-full flex flex-col bg-primary-light px-[32px] md:px-[11.25%] py-8">
         <h2 className={`flex justify-center align-middle pb-7 ${styles.BoldHeader2} text-text-light`}>Sprawdź co mówią <br/>o nas użytkownicy</h2>
         <div className="flex flex-col gap-y-5">
-            <div className="flex flex-col sm:flex-row sm:justify-between gap-y-6">
+            <div className="flex flex-col md:flex-row md:justify-between gap-y-6">
                 <ReviewCard name="Paweł White" role="Trener osobisty" stars={3} profilePicture={profPic1}>
                     Lorem ipsum dolor sit amet consectetur. Consequat sodales sed .
                 </ReviewCard>
@@ -24,7 +24,7 @@ const Reviews = () => (
                     Lorem ipsum dolor sit amet consectetur. Consequat sodales sed .
                 </ReviewCard>
             </div>
-            <div className="hidden sm:flex flex-row justify-center gap-x-24">
+            <div className="hidden md:flex flex-row justify-center gap-x-24">
                 <ReviewCard name="Olivia Mäkinen" role="Szef Kuchni" stars={4} profilePicture={profPic4}>
                     Lorem ipsum dolor sit amet consectetur. Consequat sodales sed .
                 </ReviewCard>

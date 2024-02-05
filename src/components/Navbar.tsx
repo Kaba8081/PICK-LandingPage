@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
-
 import {styles} from '../style';
 import {close, menu} from '../assets';
 import { logoDefault } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
-    const [active, setActive] = useState("hero");
     const [toggle, setToggle] = useState(false);
     return(
     <nav className='flex justify-between items-middle bg-primary-dark px-[32px] md:px-[11.25%] pt-14 py-[16px]'>
@@ -20,7 +18,6 @@ const Navbar = () => {
                 <li
                     key={nav.id}
                     className={`${styles.SemiBoldHeader4} transition duration-250 hover:opacity-75`}
-                    onClick={() => setActive(nav.id)}
                 >
                     <a href={`#${nav.id}`}>
                         {nav.label}
@@ -41,7 +38,6 @@ const Navbar = () => {
                     {navLinks.map((nav, index) => (
                         <li 
                         key={nav.id}
-                        onClick={() => setActive(nav.id)}
                         className={`${styles.BaseText} cursor-pointer text-text-light`}>
                             <a href={`#${nav.id}`}>{nav.label}</a>
                         </li>

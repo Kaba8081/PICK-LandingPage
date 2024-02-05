@@ -3,15 +3,13 @@ import {styles} from '../style';
 
 const Offert = () => (
     <div id="offert" className="w-full flex flex-col px-[32px] md:px-[11.25%] py-16 gap-y-16">
-        <div className="flex flex-row justify-between"> 
+        <div className="flex flex-col md:flex-row justify-between"> 
             <h2 className={`${styles.BoldHeader2}`}>Nasza Oferta</h2>
-            <p 
-                className={`${styles.BoldBase} text-[#2A5388]`}
-            >
+            <p  className={`${styles.BoldBase} text-[#2A5388]`}>
                 Wybierz pakiet, który najbardziej <br/>odpowiada twojemu zapotrzebowaniu
             </p>
         </div>
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-col gap-y-4 md:flex-row justify-between items-center">
             <OffertCard title="Pakiet Podstawowy" price='19'>
                 <ul className='list-disc px-4'>
                     <li>Lorem Ipsum</li>

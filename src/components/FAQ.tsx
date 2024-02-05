@@ -2,14 +2,19 @@ import {styles} from '../style';
 import * as Icon from 'react-bootstrap-icons';
 
 const FAQ = () => (
-    <div className="flex flex-row justify-between items-center px-[32px] md:px-[11.25%] py-16">
-        <div className="flex flex-col w-[40%] gap-y-6">
+    <div id="faq" className="flex flex-col md:flex-row justify-between items-center px-[32px] md:px-[11.25%] py-16">
+        <div className="flex flex-col md:w-[40%] gap-y-4 pb-6 md:pb-0">
             <h2 className={`${styles.BoldHeader2}`}>
                 Najczęściej zadawane pytania
             </h2>
-            <h3 className={`text-text ${styles.BoldBase} opacity-70`}>Jeśli masz więcej pytań napisz do nas <a href="./contact/" className="text-secondary-light hover:text-secondary">tutaj</a>!</h3>
+            <h3 className={`text-text ${styles.BoldBase} opacity-70`}>
+                Jeśli masz więcej pytań 
+                <br className='md:hidden'/>
+                napisz do nas
+                <a href="./contact/" className="text-secondary-light hover:text-secondary"> tutaj</a>!
+            </h3>
         </div>
-        <div className="flex flex-col gap-y-8 w-[55%]">
+        <div className="flex flex-col gap-y-4 md:gap-y-8 md:w-[55%]">
             <div className='flex flex-row items-center gap-x-5'>
                 <Icon.CheckLg color="cyan-500" size={64}/>
                 <div className='flex flex-col items-start p-[25px] rounded-[25px] bg-secondary bg-opacity-20 gap-y-2'>
